@@ -1,0 +1,749 @@
+<mxfile host="Electron" modified="2024-05-05T10:54:36.509Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="sRcdswbxxJlwz3v4N7oh" version="24.1.0" type="device" pages="5">
+  <diagram name="эталон" id="YHbXTnb3TrTrv8fPCgfm">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-6" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="550" y="140" width="260" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-1" value="postgres 15" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;verticalAlign=top;" parent="5DgNrGhEGEWHsfJPi2BX-6" vertex="1">
+          <mxGeometry width="260" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-5" value="lock" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="5DgNrGhEGEWHsfJPi2BX-6" vertex="1">
+          <mxGeometry x="55" y="60" width="150" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-2" value="sales" style="rounded=0;whiteSpace=wrap;html=1;" parent="5DgNrGhEGEWHsfJPi2BX-6" vertex="1">
+          <mxGeometry x="70" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-3" value="dictionary" style="rounded=0;whiteSpace=wrap;html=1;" parent="5DgNrGhEGEWHsfJPi2BX-6" vertex="1">
+          <mxGeometry x="70" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-4" value="clients.bonuses" style="rounded=0;whiteSpace=wrap;html=1;" parent="5DgNrGhEGEWHsfJPi2BX-6" vertex="1">
+          <mxGeometry x="70" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="5DgNrGhEGEWHsfJPi2BX-7" target="5DgNrGhEGEWHsfJPi2BX-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-7" value="etalon solo" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="110" y="180" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5DgNrGhEGEWHsfJPi2BX-8" target="5DgNrGhEGEWHsfJPi2BX-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-8" value="etalon summary" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="145" y="400" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5DgNrGhEGEWHsfJPi2BX-9" target="5DgNrGhEGEWHsfJPi2BX-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-15" value="object json (sales, dictionary, bonuses)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="5DgNrGhEGEWHsfJPi2BX-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.0669" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-9" value="thread 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="220" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="5DgNrGhEGEWHsfJPi2BX-10" target="5DgNrGhEGEWHsfJPi2BX-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-10" value="thread 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="250" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="5DgNrGhEGEWHsfJPi2BX-11" target="5DgNrGhEGEWHsfJPi2BX-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-11" value="thread N" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="280" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-17" value="весь лог вставки всех потоков" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="190" y="348" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5DgNrGhEGEWHsfJPi2BX-18" value="file system" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="145" y="560" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="TkrVsSjf5N4Fap8FQQut-1" value="обработанный суммарный лог" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="500" width="190" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5tYMF3rDQnovoILV0Pb2" name="быстрая микросервисная вставка">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-29" value="proc-buff" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="480" width="310" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-1" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1010" y="70" width="1020" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-2" value="postgres 15" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;verticalAlign=top;" parent="tLsLEZSFlavHqd0xFzRB-1" vertex="1">
+          <mxGeometry x="-233.75000000000003" width="1253.7499999999995" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-4" value="таблица sales" style="rounded=0;whiteSpace=wrap;html=1;" parent="tLsLEZSFlavHqd0xFzRB-1" vertex="1">
+          <mxGeometry x="510" y="165" width="446.32" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-5" value="таблица&amp;nbsp;dictionary" style="rounded=0;whiteSpace=wrap;html=1;" parent="tLsLEZSFlavHqd0xFzRB-1" vertex="1">
+          <mxGeometry x="640" y="240" width="316.32" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-6" value="таблица&amp;nbsp;clients.bonuses" style="rounded=0;whiteSpace=wrap;html=1;" parent="tLsLEZSFlavHqd0xFzRB-1" vertex="1">
+          <mxGeometry x="717.37" y="310" width="238.95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-20" value="lock" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="tLsLEZSFlavHqd0xFzRB-1" vertex="1">
+          <mxGeometry x="-212.5" y="120" width="594.9999999999999" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-22" value="&amp;nbsp;таблица buffer_proc" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="tLsLEZSFlavHqd0xFzRB-1" vertex="1">
+          <mxGeometry x="130.76578947368418" y="185" width="251.7274999999999" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-21" value="таблица buffer_in" style="rounded=0;whiteSpace=wrap;html=1;" parent="tLsLEZSFlavHqd0xFzRB-1" vertex="1">
+          <mxGeometry x="-212.49999999999994" y="185" width="251.7274999999999" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-32" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="tLsLEZSFlavHqd0xFzRB-1" source="tLsLEZSFlavHqd0xFzRB-21" target="tLsLEZSFlavHqd0xFzRB-22" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="53.68421052631579" y="220" as="sourcePoint" />
+            <mxPoint x="143.15789473684208" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="89.4736842105263" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" source="tLsLEZSFlavHqd0xFzRB-8" target="tLsLEZSFlavHqd0xFzRB-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-25" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tLsLEZSFlavHqd0xFzRB-8" target="tLsLEZSFlavHqd0xFzRB-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-8" value="fast-inserter" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="540" y="120" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="tLsLEZSFlavHqd0xFzRB-10" target="tLsLEZSFlavHqd0xFzRB-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-27" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="tLsLEZSFlavHqd0xFzRB-10" target="tLsLEZSFlavHqd0xFzRB-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-10" value="fast-collector" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="575" y="340" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.811;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" parent="1" source="tLsLEZSFlavHqd0xFzRB-13" target="tLsLEZSFlavHqd0xFzRB-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-12" value="string json (sales, dictionary, bonuses)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="tLsLEZSFlavHqd0xFzRB-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.0669" y="3" relative="1" as="geometry">
+            <mxPoint x="-38" y="42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-13" value="thread 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="160" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.244;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="tLsLEZSFlavHqd0xFzRB-15" target="tLsLEZSFlavHqd0xFzRB-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-15" value="thread 2" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="190" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-16" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="tLsLEZSFlavHqd0xFzRB-17" target="tLsLEZSFlavHqd0xFzRB-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-17" value="thread N" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="220" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-19" value="file system" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="320" y="270" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-24" value="log" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="480" y="320" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-26" value="log" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="460" y="240" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;exitX=0;exitY=0;exitDx=0;exitDy=0;" parent="1" source="KrfsiuNOioKdc9lMqBWd-5" target="tLsLEZSFlavHqd0xFzRB-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-34" value="лочит таблицу buffer_in и переносит данные в buffer_proc" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#007FFF;" parent="tLsLEZSFlavHqd0xFzRB-30" vertex="1" connectable="0">
+          <mxGeometry x="0.0302" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" source="KrfsiuNOioKdc9lMqBWd-5" target="tLsLEZSFlavHqd0xFzRB-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-37" value="парсит данные и производит пакетную вставку в таблицы sales, dictionary и clients" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3399FF;" parent="tLsLEZSFlavHqd0xFzRB-36" vertex="1" connectable="0">
+          <mxGeometry x="0.2048" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KrfsiuNOioKdc9lMqBWd-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="KrfsiuNOioKdc9lMqBWd-6" target="tLsLEZSFlavHqd0xFzRB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KrfsiuNOioKdc9lMqBWd-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="KrfsiuNOioKdc9lMqBWd-6" target="tLsLEZSFlavHqd0xFzRB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="KrfsiuNOioKdc9lMqBWd-6" target="tLsLEZSFlavHqd0xFzRB-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tLsLEZSFlavHqd0xFzRB-39" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="tLsLEZSFlavHqd0xFzRB-22" target="KrfsiuNOioKdc9lMqBWd-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KrfsiuNOioKdc9lMqBWd-7" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1155" y="550" width="145" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KrfsiuNOioKdc9lMqBWd-1" value="Перенос данных" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="KrfsiuNOioKdc9lMqBWd-7">
+          <mxGeometry width="145" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KrfsiuNOioKdc9lMqBWd-8" value="" style="group;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1121" y="660" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KrfsiuNOioKdc9lMqBWd-2" value="Обработка (парсинг и вставка в таблицы sales, dictionary и bonuses) данных" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="KrfsiuNOioKdc9lMqBWd-8">
+          <mxGeometry width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KrfsiuNOioKdc9lMqBWd-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1352.49" y="665" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrfsiuNOioKdc9lMqBWd-5" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="558.89" width="32.22222222222222" height="32.22222222222222" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="j-boIoI99j20RPk5Lkwp" name="Логика оптимизации">
+    <mxGraphModel dx="1195" dy="703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-1" value="" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="110" y="210" width="560" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-2" value="Объем вставок в еденицу времени на сервисе постгрес" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="304" y="160" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-16" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="220" width="520" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-5" value="&lt;font color=&quot;#ff3333&quot;&gt;Объем операции вставки 1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-16">
+          <mxGeometry width="510" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-9" value="1) Установить соеденение с СУБД" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-16">
+          <mxGeometry x="10" y="20" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-10" value="3) Постгрес должен пропарсить входящую строку" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-16">
+          <mxGeometry x="10" y="60" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-11" value="2) Передать данные с микросервиса на постгрес по сети" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-16">
+          <mxGeometry x="10" y="40" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-12" value="4) Постгрес должен выполнить операцию вставки и записать на диск данные" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-16">
+          <mxGeometry x="10" y="80" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-13" value="5) Постгрес каждую из своих операций протоколирует и записывает в лог выполнения" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-16">
+          <mxGeometry x="10" y="100" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-17" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="360" width="520" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-18" value="&lt;font color=&quot;#ff3333&quot;&gt;Объем операции вставки 2&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-17">
+          <mxGeometry width="510" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-19" value="1) Установить соеденение с СУБД" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-17">
+          <mxGeometry x="10" y="20" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-20" value="3) Постгрес должен пропарсить входящую строку" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-17">
+          <mxGeometry x="10" y="60" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-21" value="2) Передать данные с микросервиса на постгрес по сети" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-17">
+          <mxGeometry x="10" y="40" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-22" value="4) Постгрес должен выполнить операцию вставки и записать на диск данные" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-17">
+          <mxGeometry x="10" y="80" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-23" value="5) Постгрес каждую из своих операций протоколирует и записывает в лог выполнения" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-17">
+          <mxGeometry x="10" y="100" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-24" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="500" width="520" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-25" value="&lt;font color=&quot;#ff3333&quot;&gt;Объем операции вставки 3&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-24">
+          <mxGeometry width="510" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-26" value="1) Установить соеденение с СУБД" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-24">
+          <mxGeometry x="10" y="20" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-27" value="3) Постгрес должен пропарсить входящую строку" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-24">
+          <mxGeometry x="10" y="60" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-28" value="2) Передать данные с микросервиса на постгрес по сети" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-24">
+          <mxGeometry x="10" y="40" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-29" value="4) Постгрес должен выполнить операцию вставки и записать на диск данные" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-24">
+          <mxGeometry x="10" y="80" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-30" value="5) Постгрес каждую из своих операций протоколирует и записывает в лог выполнения" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-24">
+          <mxGeometry x="10" y="100" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-31" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="120" y="640" width="520" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-32" value="&lt;font color=&quot;#ff3333&quot;&gt;Объем операции вставки 4&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-31">
+          <mxGeometry width="510" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-33" value="1) Установить соеденение с СУБД" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-31">
+          <mxGeometry x="10" y="20" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-34" value="3) Постгрес должен пропарсить входящую строку" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-31">
+          <mxGeometry x="10" y="60" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-35" value="2) Передать данные с микросервиса на постгрес по сети" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-31">
+          <mxGeometry x="10" y="40" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-36" value="4) Постгрес должен выполнить операцию вставки и записать на диск данные" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-31">
+          <mxGeometry x="10" y="80" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-37" value="5) Постгрес каждую из своих операций протоколирует и записывает в лог выполнения" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-31">
+          <mxGeometry x="10" y="100" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-45" value="А это свободное место.&amp;nbsp; Постгрес может совершить за это время еще несколько вставок, если у него хватит производительности&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="195" y="780" width="370" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-47" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="90" y="210" as="sourcePoint" />
+            <mxPoint x="90" y="932.2857142857143" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-48" value="Время" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-49" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="700" y="220" width="520" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-50" value="&lt;font color=&quot;#ff3333&quot;&gt;Объем операции вставки n&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-49">
+          <mxGeometry width="510" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-51" value="1) Установить соеденение с СУБД" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-49">
+          <mxGeometry x="10" y="20" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-52" value="3) Постгрес должен пропарсить входящую строку" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-49">
+          <mxGeometry x="10" y="60" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-53" value="2) Передать данные с микросервиса на постгрес по сети" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-49">
+          <mxGeometry x="10" y="40" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-54" value="4) Постгрес должен выполнить операцию вставки и записать на диск данные" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-49">
+          <mxGeometry x="10" y="80" width="460" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-55" value="5) Постгрес каждую из своих операций протоколирует и записывает в лог выполнения" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8op4FWR-9dMyxkkSZz7M-49">
+          <mxGeometry x="10" y="100" width="510" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8op4FWR-9dMyxkkSZz7M-56" target="8op4FWR-9dMyxkkSZz7M-51">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-56" value="у меня в проекте этого нет (пункта 1). Использутеся пулл соеденений." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="910" y="130" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-58" value="Для того, чтобы увеличить скорость вставки, нужно оптимизовывать либо все, либо какой-то из определенных пунктов 1-5. То есть, пункт 1 у нас у же оптимизован за счет использования пула потоков. И для каждой новой вставки мы не делаем соеденение заново, а переиспользуем уже существующее. Для оптимизации пункта 2, уже использутся стандартные свойства протокола вставки postgres и http (используются сжатия в zip подобные данные). Дополнительно можно попытаться использовать более компактные названия полей, таблиц и тому подобное, вплоить до структуры таблиц.&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3. Постгрес должен пропарсить входящую строку - это внутрений механизм постгреса, тут мы влиять не можем, то же верно и для пункта 5.&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;А вот пункт 4 очень хорошо может быть оптимизован на уровне архитектуры программными методами. Это называется пакетная обработка. То есть, вместо того, чтобы заставлять постгрес выполнять вставки по одной, мы можем делать одну групповую вставку, скажем на 10 тысяч одинарных записей (1 - то есть заменить 10 тысяч отдельных вставок на одну групповую, 2 - выполнить вспомогательные операции типа вычисления бонусов не на каждую операцию (при этом отедльная вставка, а суммарный результат на все 10 тысяч операций в пакете). При этом, при пакетной операции постгрес так же будет выполнять меньше операций по пунктам 3 и 5. А за счет того, что мы вспомогательные операции выполним на микросервисе, эти данные тоже не будут передаваться по сети и поэтому так же будет сэкономленно сумарное время на операцию.&lt;/span&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=left;spacingLeft=90;" vertex="1" parent="1">
+          <mxGeometry x="720" y="370" width="830" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-59" value="1)(пример пакетной вставки) INSERT INTO a_test (obj_record) VALUES (&#39;text_2&#39;), (&#39;text_3&#39;), (&#39;text_4&#39;);&lt;br&gt;(Такая вставка дает выигрыш по отношению к выполнению каждой вставки по отдельности)&lt;br&gt;2) Пакетная обработка промежуточных значений на сервисе, и одна общая вставка в базу данных вместо выполнения множества одинарных вставок. То есть, если покупатель выполнил 100 покупок, при отдельных вставках ему нужно изменить значения бонусов в 100 раз. При выполнении пактной вставки на 10 тысяч пользователей, мы вычисляем результирующее значени бонусов сразу же на микросервисе и вставляем его 1 раз в базу данных. Эта операция наиболее тяжелая, которая нам нужна для того, чтобы продемонстрировать задержку. Соответственно здесь будет наиболее существенынй выигрышь по времени. Как это делается в проекте - при запуске буффер процессора 1 раз выгружается в оперативную память вся таблица clients ( именно в ней поле бонусы и нужно обновить). А далее при парсинге корзины покупок нам известен id клиента, а бонусы, которые на базе данных, уже можно получить в микросервисе из map-а, в который мы загрузили клиентов. - Ключ в этом map-е - client_id, а значение сам client и его бонусы. При парсинге мы прибавляем значение бонусов в этом мапе. После того, когда парсинг всего пакета (в нашем случае 10 тысяч записей или все что мы выгребли из buffer_in), конечное значение бонусов в этом мапе и будет то самое заначение, которое нужно вставить 1 раз вместо выполнения изменений каждый раз, когда этот клиент встретился при парсинге.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="720" width="730" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="8op4FWR-9dMyxkkSZz7M-60" value="Для того, чтобы иметь возможность пакетной обработки запрсов И НУЖНА БУФЕРНАЯ ТАБЛИЦА И БУФЕРНЫЙ ОБРАБОТЧИК. Именно буфер процессор реализует пакетную обработку." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="950" width="350" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9EDfqrNI2BGKUlSXkRlO" name="Механизмы оптимизации">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5SgsECe1NacQ94QB1OWw-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="310" width="260" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="5SgsECe1NacQ94QB1OWw-2" value="Вставка 1&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="320" as="sourcePoint" />
+            <mxPoint x="150" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-2" value="Допустим производительность постгресса позволяет за 10 секунд выполнить 5 вставок, каждая из которых занимает 2 секунды" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="260" width="256" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-7" value="Вставка 2&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-8" value="Вставка 3&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-9" value="Вставка 4&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-10" value="Вставка 5&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="310" width="260" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-19" value="Вставка 1&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-20" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="434" y="320" as="sourcePoint" />
+            <mxPoint x="434" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-21" value="А если пришло в еденицу времени запросов больше, чем постгрес может обработать, то они должны быть обработаны в следующую еденицу времени. То есть если пришло на 2 запроса больше, чем постгрес может обработать, она будут добавлены в очередь обработки.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="406" y="210" width="276" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-22" value="Вставка 2&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-23" value="Вставка 3&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-24" value="Вставка 4&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-25" value="Вставка 5&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-26" value="&lt;font color=&quot;#ff3333&quot;&gt;Вставка 6&lt;br&gt;(2 секунды)&lt;br&gt;в следующую еденицу времени.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-27" value="&lt;font color=&quot;#ff0000&quot;&gt;Вставка 7&lt;br&gt;(2 секунды)&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;в следующую еденицу времени.&lt;/span&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="474" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-28" value="То есть, если поток запросов на вставку равномерный по времени, например 7 запросов в еденицу времени, то очередь запросов на вставку в постгрес в первую еденицу времени будет 7, во вторую 9,&amp;nbsp; в третью 11. То есть каждый раз будет увеличиваться на два." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="210" width="276" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="310" width="260" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-31" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="320" as="sourcePoint" />
+            <mxPoint x="740" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-36" value="&lt;font color=&quot;#ff3333&quot;&gt;Вставка 6&lt;br&gt;(2 секунды)&lt;br&gt;в следующую еденицу времени.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-37" value="&lt;font color=&quot;#ff0000&quot;&gt;Вставка 7&lt;br&gt;(2 секунды)&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;в следующую еденицу времени.&lt;/span&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-47" value="Вставка 8&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-48" value="Вставка 9&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-49" value="Вставка 10&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-50" value="Вставка 11&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="790" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-51" value="Вставка 12&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="790" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-52" value="&lt;font&gt;Вставка 13&lt;br&gt;(2 секунды)&lt;br&gt;в следующую еденицу времени.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="790" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-53" value="&lt;font&gt;Вставка 14&lt;br&gt;(2 секунды)&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;в следующую еденицу времени.&lt;/span&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="790" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-54" value="Необработанных запросов осталось 2 штуки" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="640" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-55" value="Необработанных запросов осталось 4 штуки" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="650" y="680" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-57" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="310" width="260" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-58" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1040" y="320" as="sourcePoint" />
+            <mxPoint x="1040" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-64" value="Вставка 11&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-65" value="Вставка 12&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-66" value="&lt;font&gt;Вставка 13&lt;br&gt;(2 секунды)&lt;br&gt;в следующую еденицу времени.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-67" value="&lt;font&gt;Вставка 14&lt;br&gt;(2 секунды)&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;в следующую еденицу времени.&lt;/span&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-68" value="&lt;font color=&quot;#ff3333&quot;&gt;Вставка 6&lt;br&gt;(2 секунды)&lt;br&gt;в следующую еденицу времени.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-69" value="&lt;font color=&quot;#ff0000&quot;&gt;Вставка 7&lt;br&gt;(2 секунды)&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;в следующую еденицу времени.&lt;/span&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-70" value="Вставка 8&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-71" value="Вставка 9&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="750" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-72" value="Вставка 10&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-73" value="Вставка 11&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-74" value="Вставка 12&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#0000FF;" vertex="1" parent="1">
+          <mxGeometry x="1090" y="930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-75" value="Необработанных запросов осталось 6 штуки" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="950" y="680" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-76" value="То есть, если постгрес получает в еденицу времени запросов на K больше, чем может обработать, то количество запросов в очереди будет расти на:&lt;br&gt;N - это количество запросов на вставку, i номер вставки, K - сколько не влезло в первую вставку. В этой формуле не учитывается зависимость от количества вставок в таблицу - то есть от I, как результат она будет расти быстрее чем арифметическая прогрессия, но сказывается это только на больших объемах данных в таблице, то есть на больших i" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1360" y="120" width="276" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="DkVlcNRSD6qhd8ZhbxyF-77" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,iVBORw0KGgoAAAANSUhEUgAAAMEAAABDCAYAAAAlOmFPAAAElUlEQVR4Ae2aDZKDIAxGOZcH8jyexsv0MOwoRkHRipu2Rt7O7PhTG5MveQG0zvOHApUr4CqPn/BRwAMBRVC9AkBQfQkgABBQA9UrAATVlwACAAE1UL0CQFB9CSAAEFAD1SsABNWXAAIAATVQvQJAUH0JIAAQUAPVKwAE1ZcAAgABNVC9AkBwxxJ4db5xzrvhv+2zHr66xjvX+O6V/ZiTBQoAQYFYX7s0hmCn0DUgCDZan8fsa9GmN5pibzZ0974dG4M++DYhiIvkiZ1SCqFtw4jQdH7d8O8AQd867zK+pVVdeCSxJxC8fNeEkXEn3YU3SS+3D8EHO2Uq1dGRdKlpCiNTmWi77WwH9qJCCMXu/Dr5d4DgIILrH0Wxi5ERNud8kYby5RNb0xA0H+6UJ/T7zCVJIQTAhsYYT1vuAMFYnGs6dxQJ/p6YeiWxey9NYG9ttHO7otO2Iehes0jrXGgUSZGSmhevCsH37bhIjjvhpfgmO+OCOxqlkuO1kAdxvYfg5fs+TORGf2Xq9Or9dHprPY592v8kAIMD5iEY+mNYMKVd5lKRbFPymzNxIYweyJx4WRRqxBdspLqVBPwWAoFuKP5hv+3nprVb2HPsXcirgFPiWOG1D4DAe7VOWSjecrmAqL8mmO+x6oomIBidF4BFmwXkObZ4R+KUkQoIYnWi/blbyDMTEXoRWKNIojt+d3cTX7i9LBCHGYvE913H0ru9HQnGyyU3ZRAMU78Q4+cWxBLNM0aCIRrpINOcVookedImUd99uwPBPPVrOt9PL8t+GcpbCP41HRoa3AJQwVKlWJLnQDDOikK3iTvlsyCQEcD5pglvjIszrviFtxD4fy6MR19lqnl97fIu5EdBkOuUMQRj0grmmN8ajjdJ2h0JhiuX7jj8bGL9N/j8M7/XzkTHwacThZyLPR5RIptauw+DYNspYwjyooWiSofb0H2arh/fVMaPJvM2lM/mCiG+hRTFDMHwBmHx+Wd+xz5e3d+JXcDefap09X7PeES6jj7tlDEE+eE7B4HYDJ99HQK5/aXtMpe25fcU7A4E8QiYNqxLIiVfetxIMEYXdUogSPLNQUYBmxBkAjlzKh4J5uFVnkfP23jeev+RwLng7/KTCuMjwZlEKl9TLQSLjjamQ+enAECw5PbcHhBMT1vyRXb/kWCbZiDYanJ8BgiA4LhCKvgUCLJJlhc08qo/bG08bWEkyKb04GRVEBzoYPyj5T1B8rPoebH/+d/fWBYQCCxnD99VFAACFRkxYlkBILCcPXxXUQAIVGTEiGUFgMBy9vBdRQEgUJERI5YVAALL2cN3FQWAQEVGjFhWAAgsZw/fVRQAAhUZMWJZASCwnD18V1EACFRkxIhlBYDAcvbwXUUBIFCRESOWFQACy9nDdxUFgEBFRoxYVgAILGcP31UUAAIVGTFiWQEgsJw9fFdRAAhUZMSIZQWAwHL28F1FASBQkREjlhUAAsvZw3cVBYBARUaMWFYACCxnD99VFAACFRkxYlkBILCcPXxXUQAIVGTEiGUFgMBy9vBdRQEgUJERI5YVAALL2cN3FQX+AFP/xw64aAlGAAAAAElFTkSuQmCC;" vertex="1" parent="1">
+          <mxGeometry x="1413" y="300" width="193" height="67" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ZJ8F-rI6wABa96yr5VzQ" name="Страница — 5">
+    <mxGraphModel dx="989" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AQS1nV7i09c5spPkOWo6-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="310" width="260" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-2" value="Вставка 1&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="320" as="sourcePoint" />
+            <mxPoint x="150" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-4" value="Вставка 2&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-5" value="Вставка 3&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-8" value="Вариант 1. Представим, что запросов на вставку в единицу времени, на постргес приходит меньше, чем постгрес может переработать. И значит, если на сервисе замерять время на вставку данных, то сервис&amp;nbsp; скажет, что у него время на вставку фиксированного пакета данных всегда одно и то же. то есть константа.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="810" as="sourcePoint" />
+            <mxPoint x="1426" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="810" as="sourcePoint" />
+            <mxPoint x="500" y="276" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-12" value="Время (часы)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="820" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-13" value="Время на вставку (секунды)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="AQS1nV7i09c5spPkOWo6-21" target="AQS1nV7i09c5spPkOWo6-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-21" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="710" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-23" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="630" y="710" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-24" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="710" y="710" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-25" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="790" y="710" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-26" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="870" y="710" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="770" width="260" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-31" value="Вставка 1&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-32" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontColor=#000000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="780" as="sourcePoint" />
+            <mxPoint x="150" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-33" value="Вставка 2&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-34" value="Вставка 3&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AQS1nV7i09c5spPkOWo6-35" value="Вариант 2. Постгрес не успевает за еденицу времени обработать все пакеты, которые сервис отсылает им. На предыдущем табе выяснили, что здесь будет арифметическая прогрессия роста времени на обработку всех данных, отправленных на постгрес от времени.&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="660" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-1" value="Вставка 4&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-2" value="Вставка 5&lt;br&gt;(2 секунды)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-3" value="&lt;font color=&quot;#ff3333&quot;&gt;Вставка 6&lt;br&gt;(2 секунды)&lt;br&gt;в следующую еденицу времени.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-4" value="&lt;font color=&quot;#ff0000&quot;&gt;Вставка 7&lt;br&gt;(2 секунды)&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(255, 51, 51);&quot;&gt;в следующую еденицу времени.&lt;/span&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="mDkv_tWah2mjKFSYyvJP-7" target="mDkv_tWah2mjKFSYyvJP-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-6" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="550" y="710" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-23" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="mDkv_tWah2mjKFSYyvJP-8" target="mDkv_tWah2mjKFSYyvJP-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="860" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-8" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="710" y="630" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="mDkv_tWah2mjKFSYyvJP-9" target="mDkv_tWah2mjKFSYyvJP-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="790" y="550" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="870" y="390" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-14" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;endArrow=none;endFill=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="mDkv_tWah2mjKFSYyvJP-6" target="mDkv_tWah2mjKFSYyvJP-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="577" y="693" as="sourcePoint" />
+            <mxPoint x="873" y="407" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="630" y="670" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-15" value="Однако, кроме такой линейной зависимости от количества вставок (i), есть еще зависимость времени на вставку от количества записей в таблице. То есть i. поэтому зависимость времени на вставку (общую обработку пакета), будет быстрее чем арифметическая прогрессия" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="860" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-37" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d80073;strokeColor=#A50040;endArrow=none;endFill=0;" edge="1" parent="1" source="mDkv_tWah2mjKFSYyvJP-30" target="mDkv_tWah2mjKFSYyvJP-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-31" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="870" y="590" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-38" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#d80073;strokeColor=#A50040;" edge="1" parent="1" target="mDkv_tWah2mjKFSYyvJP-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="569.3705925789552" y="716.5082963013779" as="sourcePoint" />
+            <mxPoint x="871" y="604" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-28" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="710" y="650" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-39" value="" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#d80073;strokeColor=#A50040;" edge="1" parent="1" source="mDkv_tWah2mjKFSYyvJP-28" target="mDkv_tWah2mjKFSYyvJP-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="729" y="657" as="sourcePoint" />
+            <mxPoint x="871" y="604" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-30" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="790" y="620" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-33" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="630" y="680" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="mDkv_tWah2mjKFSYyvJP-42" target="mDkv_tWah2mjKFSYyvJP-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="920" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-42" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="550" y="770" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-43" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="630" y="770" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-44" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="710" y="770" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-45" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="790" y="770" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-46" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="870" y="770" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-47" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="550" y="770" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-54" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="mDkv_tWah2mjKFSYyvJP-49" target="mDkv_tWah2mjKFSYyvJP-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-49" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="870" y="770" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-50" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="690" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-51" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="610" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-52" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="450" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-53" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="950" y="730" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-56" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#f5f5f5;strokeColor=#666666;entryX=0.18;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.34;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mDkv_tWah2mjKFSYyvJP-53" target="mDkv_tWah2mjKFSYyvJP-50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="899" y="786" as="sourcePoint" />
+            <mxPoint x="961" y="754" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#f5f5f5;strokeColor=#666666;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="mDkv_tWah2mjKFSYyvJP-50" target="mDkv_tWah2mjKFSYyvJP-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="909" y="796" as="sourcePoint" />
+            <mxPoint x="971" y="764" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mDkv_tWah2mjKFSYyvJP-58" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;fillColor=#f5f5f5;strokeColor=#666666;entryX=0.38;entryY=0.92;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="mDkv_tWah2mjKFSYyvJP-51" target="mDkv_tWah2mjKFSYyvJP-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="919" y="806" as="sourcePoint" />
+            <mxPoint x="981" y="774" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
